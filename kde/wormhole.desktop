@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+MimeType=all/all;
+Actions=wormholeSend 
+Icon=document-send
+X-KDE-Priority=TopLevel
+
+[Desktop Action wormholeSend]
+Name=Send with Wormhole
+Name[de]=Mit Wormhole senden
+Exec=konsole -e "wormhole send %u"
