@@ -1,0 +1,9 @@
+Package: magic-wormhole-dolphin
+Version: %VERSION%
+Section: utils
+Priority: optional
+Architecture: amd64
+Depends: dolphin
+Maintainer: Michael Schwarz <michael.schwarz91@gmail.com>
+Description: Magic Wormhole context-menu entry for Dolphin
+ Adds a context-menu entry for every file to Dolphin to send it with Magic Wormhole
